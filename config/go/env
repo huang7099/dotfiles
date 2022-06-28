@@ -1,0 +1,3 @@
+GO111MODULE=on
+GOINSECURE=git.code.oa.com,git.woa.com
+GOPROXY=https://goproxy.woa.com,https://proxy.golang.org,direct
