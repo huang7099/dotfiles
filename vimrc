@@ -89,6 +89,7 @@ set foldmethod=syntax
 " map <C-m> :cprevious<CR>
 autocmd FileType go nmap <leader>b  <Plug>(go-build)
 autocmd FileType go nmap <leader>r  <Plug>(go-run)
+autocmd FileType go nmap <leader>d  <Plug>(go-diagnostics)
 
 let g:go_highlight_operators = 1
 let g:go_highlight_types = 1
@@ -102,6 +103,8 @@ let g:go_doc_popup_window = 1
 let g:go_auto_type_info = 1
 let g:go_auto_sameids = 1
 let g:go_diagnostics_level = 2
+let g:go_highlight_diagnostic_errors = 1
+let g:go_highlight_diagnostic_warnings = 1
 let g:go_fold_enable = ['block', 'import', 'varconst', 'package_comment']
 " deoplete: this plugin enables real-time autocompletion for Go in vim-go.
 let g:deoplete#enable_at_startup = 1  
@@ -133,3 +136,5 @@ let g:ctrlp_custom_ignore = {
 nnoremap <leader>u :GundoToggle<CR>
 let g:gundo_prefer_python3 = 1
 
+" tagbar 
+nnoremap <silent> <F8> :TagbarToggle<CR>

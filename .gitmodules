@@ -22,3 +22,9 @@
 [submodule "vim/pack/vendor/start/vim-go"]
 	path = vim/pack/vendor/start/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "vim/pack/vendor/start/coc.nvim"]
+	path = vim/pack/vendor/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "vim/pack/vendor/start/tagbar"]
+	path = vim/pack/vendor/start/tagbar
+	url = https://github.com/majutsushi/tagbar
