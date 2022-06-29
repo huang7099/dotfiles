@@ -106,10 +106,7 @@ let g:go_diagnostics_level = 2
 let g:go_highlight_diagnostic_errors = 1
 let g:go_highlight_diagnostic_warnings = 1
 let g:go_fold_enable = ['block', 'import', 'varconst', 'package_comment']
-" deoplete: this plugin enables real-time autocompletion for Go in vim-go.
-let g:deoplete#enable_at_startup = 1  
-call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*' })
-set completeopt-=preview
+" set completeopt-=preview
 
 " theme
 let g:rehash256 = 1
