@@ -5,6 +5,11 @@
       "rootPatterns": ["go.mod"],
       "trace.server": "verbose",
       "filetypes": ["go"]
-    }
+    },
+  "clangd": {
+    "command": "clangd",
+    "rootPatterns": [".git"],
+    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+  }
   }
 }

@@ -102,11 +102,10 @@ let g:go_highlight_generate_tags = 1
 let g:go_doc_popup_window = 1
 let g:go_auto_type_info = 1
 let g:go_auto_sameids = 1
-let g:go_diagnostics_level = 2
-let g:go_highlight_diagnostic_errors = 1
-let g:go_highlight_diagnostic_warnings = 1
+" let g:go_diagnostics_level = 2
+" let g:go_highlight_diagnostic_errors = 1
+" let g:go_highlight_diagnostic_warnings = 1
 let g:go_fold_enable = ['block', 'import', 'varconst', 'package_comment']
-" set completeopt-=preview
 
 " theme
 let g:rehash256 = 1
