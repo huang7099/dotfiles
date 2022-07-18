@@ -71,6 +71,8 @@ set mouse+=a
 
 set scrolloff=5 " show lines above and below cursor (when possible)
 
+set maxmempattern=2000
+
 " filetype plugin on
 filetype indent on
 filetype plugin indent on
